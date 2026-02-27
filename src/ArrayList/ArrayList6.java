@@ -1,6 +1,6 @@
 package ArrayList;
 import java.util.ArrayList;
-public class ArrayList1{
+public class ArrayList6 {
 
 	public static void main(String[] args) {
 		ArrayList al = new ArrayList();
@@ -8,11 +8,9 @@ public class ArrayList1{
 		al.add(200);
 		al.add(300);
 		System.out.println(al);
-		al.add("cyber");
-		al.add("Harsh");
-		al.add(null);
-		al.add(20.5f);
-		System.out.println(al);
+		System.out.println(al.isEmpty());
+		al.clear();
+		System.out.println(al.isEmpty());
 	}
 
 }
